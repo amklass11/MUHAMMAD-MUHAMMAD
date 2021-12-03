@@ -18,13 +18,14 @@
         <div style="background-color: blue;">
             <form id="survey-form">
                 <label>Name</label>
-                <input type="text" id="name" placeholder="Enter your name">
+                <input type="text" id="name-label" placeholder="Enter your name">
                 <br>
                 <label>Email</label>
-                <input type="email" id="email" placeholder="Enter your email">
+                <input type="email" id="email-label" placeholder="Enter your email">
+                <label for="email-label">lassana</label>
                 <br>
                 <label>Age (optional)</label>
-                <input type="number"id="number">
+                <input type="number"id="number-label" placeholder="Enter your age">
                 <br>
 
                 <p>Dropdown Number 1</p>
@@ -37,11 +38,11 @@
 
 
                   <br><br>
-                  <input type="radio">
+                  <input name="man" value="razz" type="radio">
                   <label for="vehicle1"> I have a bike</label><br>
-                  <input type="radio">
+                  <input name="man" value="html" type="radio">
                   <label for="vehicle1"> I have a bike2</label><br>
-                  <input type="radio">
+                  <input name="man" value="css"   type="radio">
                   <label for="vehicle1"> I have a bike3</label><br>
 
 
@@ -56,6 +57,30 @@
                   </select>
             </form>
         </div>
+
+        
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Default checkbox
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+              Checked checkbox
+            </label>
+          </div>
+          <div>
+            <label for="w3review">Review of W3Schools:</label>
+
+            <textarea id="w3review" name="w3review" rows="4" cols="50">
+           
+            </textarea>
+            <button id="submit" type="submit" > Submit</button>
+            
+          </div>
+
 
 
 
