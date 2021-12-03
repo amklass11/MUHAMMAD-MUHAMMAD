@@ -8,3 +8,4 @@ for (let i = 0; i < word.length; i++) {
 var t = alphabetsHeight.sort() [alphabetsHeight.length-1];
 
 return t * word.length;
+
